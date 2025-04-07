@@ -10,7 +10,7 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      print(get_golem_config('golem_name'))
+      print(get_golem_config('dummy'))
       # golem::golem_welcome_page() # Remove this line to start building your UI
     )
   )
